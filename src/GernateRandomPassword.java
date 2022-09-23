@@ -4,7 +4,6 @@ public class GernateRandomPassword {
     public static void main(String[] args) {
         System.out.println(generatePassword(8));
     }
-
     private static char[] generatePassword(int length) {
         String capitalCaseLetters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
         String lowerCaseLetters = "abcdefghijklmnopqrstuvwxyz";
@@ -13,7 +12,6 @@ public class GernateRandomPassword {
         String combinedChars = capitalCaseLetters + lowerCaseLetters + specialCharacters + numbers;
         Random random = new Random();
         char[] password = new char[length];
-
         password[0] = lowerCaseLetters.charAt(random.nextInt(lowerCaseLetters.length()));
         password[1] = capitalCaseLetters.charAt(random.nextInt(capitalCaseLetters.length()));
         password[2] = specialCharacters.charAt(random.nextInt(specialCharacters.length()));
