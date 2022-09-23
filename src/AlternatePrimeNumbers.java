@@ -16,7 +16,6 @@ public class AlternatePrimeNumbers {
         else
             return 0;
     }
-
     static void printAltPrime(int n)
     {
 
@@ -35,7 +34,6 @@ public class AlternatePrimeNumbers {
             }
         }
     }
-
     public static void main(String[] args)
     {
         int num = 20;

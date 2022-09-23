@@ -1,7 +1,6 @@
 public class vowelsandconsonants {
     public static void main(String[] args) {
 
-
         int vCount = 0, cCount = 0;
 
 
